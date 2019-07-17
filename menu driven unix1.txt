@@ -1,0 +1,36 @@
+creating a file:
+
+cat> firstfile
+This is just a test.
+
+creating a directory
+mkdir project1
+
+copy a file
+cp firstfile secondfile
+
+moving a file
+
+removing a file
+rm: remove firstfile (y/n)?
+
+Display calendar of current month
+ $cal
+
+Search for a pattern in all the files/subdirectories from current directory.  
+
+$ find . -type f -exec grep -i <pattern> \;
+$ ack <pattern>
+$ find . -type f -print0 | xargs -0 grep -i <pattern>
+$ grep -r <pattern> * .[!.]*
+
+$find . -exec grep $foo {} \; -print
+
+Count the no. of directories / sub directories in current directory
+echo */ | wc
+
+or
+
+tree -L 1 | tail -1
+
+

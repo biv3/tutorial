@@ -1,0 +1,10 @@
+accept no from user
+
+read -p "Enter number one : " n1
+echo "Number1 - $n1  //display that no
+
+display content of a file
+cat filename
+
+check is it a file or dir
+find . -type d
